@@ -1,3 +1,5 @@
+/* GENERALI */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +16,24 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+h2{
+    color: #737373;
+    font-size: 2em;
+    line-height: 130%;
+}
+
+h3{
+    font-size: 1.7em;
+    color: #011b50;
+    padding-bottom: .6em;
+}
+
+p{
+    color: #737373;
+}
+
 .container {
-    width: 1240px;
+    width: 85%;
     margin: auto;
 }
 
@@ -41,16 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-.button.button-secondary {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-}
-
-.button.button-secondary:hover {
-    color: #001A4F;
-    background-color: white;
-}
+/* HEADER*/
 
 header {
     position: relative;
@@ -72,6 +81,10 @@ header::after {
     background: -webkit-gradient(linear, right top, left top, from(transparent), to(#001A4F));
     background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
 }
+
+
+
+/*NAV*/
 
 nav {
     position: relative;
@@ -111,9 +124,9 @@ nav {
     height: 40px;
     line-height: 40px;
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 13px;
     position: relative;
 }
 
@@ -128,6 +141,10 @@ nav {
     top: 9px;
     left: 0px;
     z-index: -1;
+}
+
+li>a:hover{
+    color: rgba(255,255,255, .7)
 }
 
 #header-buttons {
@@ -154,6 +171,19 @@ nav {
     text-decoration: none;
 }
 
+.button.button-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.button.button-secondary:hover {
+    color: #001A4F;
+    background-color: white;
+}
+
+/*JUMBOTRON*/
+
 #jumbotron {
     position: relative;
     z-index: 2;
@@ -161,8 +191,8 @@ nav {
 
 .jumbotron-content {
     width: 55%;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .jumbotron-content h4 {
@@ -180,4 +210,63 @@ nav {
 .jumbotron-content p {
     margin-bottom: 15px;
     line-height: 1.6;
+    color: white;
+}
+
+p+a{
+    text-transform: uppercase;
+}
+/********************* MAIN *********************/
+
+.obiettivi{
+    width: 100%;
+    margin-top: 100px;
+    /* background-color: red; */
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.immagine-sinistra{
+    width: 50%;
+    float: left;
+    /* background-color: blue; */
+}
+
+.immagine-sinistra>img{
+    width: 100%;
+}
+
+.descrizione-destra{
+    width: 35%;
+    float: left;
+    /* background-color: green; */
+}
+
+h2>span{
+    color: #65de82;
+}
+
+.paragrafo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px rgba(150,150,150,.5);
+    line-height: 140%;
+    font-size: 16px;
+}
+
+.strumenti{
+    width: 100%;
+    /* background-color: yellow; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.tool{
+    /* background-color: yellow; */
+    width: 33% ;
+    float: left;
+    /* border: solid 2px; */
+    padding: 45px;
 }
