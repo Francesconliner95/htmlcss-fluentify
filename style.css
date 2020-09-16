@@ -33,7 +33,7 @@ p{
 }
 
 .container {
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
@@ -90,6 +90,7 @@ nav {
     position: relative;
     z-index: 2;
     height: 100px;
+    width: 100%;
 }
 
 #main-menu {
@@ -124,8 +125,8 @@ nav {
     height: 40px;
     line-height: 40px;
     display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
     font-size: 13px;
     position: relative;
 }
@@ -157,30 +158,96 @@ li>a:hover{
 #header-buttons a {
     height: 40px;
     line-height: 40px;
-    padding: 0 14px;
+    padding: 0 10px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #header-buttons a:first-child {
     margin-right: 20px;
 }
 
-#header-buttons a:last-child {
-    color: white;
-    text-decoration: none;
-}
-
 .button.button-secondary {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+    position: relative;
 }
 
 .button.button-secondary:hover {
     color: #001A4F;
     background-color: white;
 }
+
+.menu-lingua{
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    right: 120px;
+    top:58px;
+    text-align: center;
+    /* border-radius: 25px; */
+    display: none;
+}
+
+.up{
+    background-color: #001a4f;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.down{
+    background-color: #001a4f;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lingua:hover .menu-lingua{
+    display: block;
+}
+
+..menu-lingua:hover {
+    display: block;
+}
+
+.lingua{
+    text-decoration: none;
+    color: white;
+}
+
+.decoration-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('https://www.fluentify.com/home/wp-content/uploads/2020/01/Filetto_verde_07.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+/* .decoration-left>img{
+    width: 50%;
+} */
+
+.decoration-right{
+    background-image: url('https://www.fluentify.com/home/wp-content/uploads/2020/01/Filetto_verde_02.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 94px;
+    height: 500px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
 
 /*JUMBOTRON*/
 
@@ -191,7 +258,6 @@ li>a:hover{
 
 .jumbotron-content {
     width: 55%;
-    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -215,6 +281,7 @@ li>a:hover{
 
 .jumbotron-content p+a{
     text-transform: uppercase;
+    font-size: 13px;
 }
 
 /********************* MAIN *********************/
@@ -269,7 +336,10 @@ h2>span{
     width: 33% ;
     float: left;
     /* border: solid 2px; */
-    padding: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 50px;
 }
 
 /****MOBILE***/
