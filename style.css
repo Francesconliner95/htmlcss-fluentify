@@ -213,9 +213,10 @@ li>a:hover{
     color: white;
 }
 
-p+a{
+.jumbotron-content p+a{
     text-transform: uppercase;
 }
+
 /********************* MAIN *********************/
 
 .obiettivi{
@@ -268,5 +269,42 @@ h2>span{
     width: 33% ;
     float: left;
     /* border: solid 2px; */
-    padding: 45px;
+    padding: 70px;
+}
+
+/****MOBILE***/
+
+.mobile{
+    background-color: #011b50;
+    width: 100%;
+}
+
+.descrizione-mobile{
+    width: 50%;
+    float: left;
+    /* background-color: yellow; */
+    padding-top: 25px;
+    padding-right: 100px;
+}
+
+.img-mobile{
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+}
+
+.descrizione-mobile>h2,.descrizione-mobile>p{
+    color: white;
+    padding-top: 20px;
+}
+
+.descrizione-mobile>a{
+    text-decoration: none;
+    color: #58c57d;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.img-mobile>img{
+    height: 270px;
 }
