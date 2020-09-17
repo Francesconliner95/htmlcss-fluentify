@@ -50,7 +50,7 @@ p{
     border: 1px solid #64DE82;
     color: #337142;
     text-decoration: none;
-    padding: 7px 14px;
+    padding: 10px 18px;
 }
 
 .button:hover {
@@ -377,4 +377,166 @@ h2>span{
 
 .img-mobile>img{
     height: 270px;
+    display: block;
+}
+
+
+/****SICUREZZA***/
+.sicurezza{
+    width: 100%;
+}
+
+.img-pc{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-pc>img{
+    width: 100%;
+}
+
+.piattaforma-sicura{
+    width: 50%;
+    float: left;
+    padding-top: 140px;
+}
+
+/****PIANO DI STUDI***/
+
+.piano-di-studi{
+    width: 100%;
+    background-color: #2a4781;
+    padding-top: 50px;
+}
+
+.piano-di-studi h2,.piano-di-studi p{
+    color: white;
+    padding-top: 20px;
+}
+
+.piano-di-studi a{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: .7em;
+}
+
+.pds-titolo{
+    width: 50%;
+    float: left;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.pds-descrizione{
+    width: 50%;
+    float: left;
+    padding-right: 100px;
+}
+
+/***FOOTER**/
+
+footer{
+    width: 100%;
+    background-color: #011b50;
+}
+
+.container.footer{
+    width: 90%;
+    padding-top: 40px;
+    /* background-color: red; */
+}
+
+.dati{
+    width: 20%;
+    float: left;
+    /* background-color: yellow; */
+    padding-right: 60px;
+}
+
+.main-footer{
+    width: 80%;
+    float: left;
+    /* background-color: green; */
+}
+
+.dati>h6{
+    padding-top: 40px;
+    color: white;
+}
+
+.dati p,a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.dati i{
+    padding-top: 15px;
+    padding-right: 15px;
+    color: #64DE82;
+}
+
+footer  a:hover{
+    color: rgba(100,222,130,0.7);
+}
+
+.dati i:hover {
+    color: rgba(100,222,130,0.7);
+}
+
+.footer-menu{
+    width: 100%;
+    border-bottom: 2px solid white;
+    content: '';
+    display: table;
+    clear: both;
+    padding-bottom: 60px;
+}
+
+.footer-menu>div{
+    float: left;
+    width: calc(100%/6);
+    font-size: 12px;
+}
+
+.footer-menu h6{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    line-height: 20px;
+    color: rgba(255,255,255,.5);
+}
+
+.footer-menu li>a {
+    color: rgba(255,255,255,.5);
+}
+
+.footer-menu li>a:hover {
+    color: rgba(100,222,130,0.7);
+}
+
+.info-legali{
+    /* background-color: green; */
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.info-legali ul {
+    list-style-type: none;
+    line-height: 20px;
+    color: rgba(255,255,255,.5);
+}
+
+.info-legali li{
+    float: left;
+    padding-right: 20px;
 }
